@@ -8,9 +8,9 @@ import (
 
 var conferenceName = "Go Conference"
 
-const conferenceTickets = 50
+const conferenceTickets = 100
 
-var remainingTickets uint = 50
+var remainingTickets uint = 100
 var bookings = make([]UserData, 0)
 
 type UserData struct {
