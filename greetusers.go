@@ -7,4 +7,6 @@ func greetUsers() {
 	fmt.Printf("We have a total of %v tickets and %v are still available.\n", conferenceTickets, remainingTickets)
 	fmt.Println("Get your tickets to attend")
 	fmt.Println("---------------------------------------------------")
+	fmt.Println("---------------------------------------------------")
+	
 }
