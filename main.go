@@ -59,7 +59,7 @@ func main() {
 			fmt.Println("Number of tickets you entered is invalid")
 		}
 		if !validCity {
-			fmt.Println("City you entered is not in the list of event locations")
+			fmt.Println("City you entered is not in the list of event locations,Please choose from Singapore,New York,London,Berlin")
 		}
 		wg.Wait()
 	}
