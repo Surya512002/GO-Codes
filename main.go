@@ -56,7 +56,7 @@ func main() {
 			fmt.Println("Email address you entered doesn't contain @ sign")
 		}
 		if !validTicketNumber {
-			fmt.Println("Number of tickets you entered is invalid")
+			fmt.Println("Number of tickets you entered is invalid. Please enter a valid number")
 		}
 		if !validCity {
 			fmt.Println("City you entered is not in the list of event locations,Please choose from Singapore,New York,London,Berlin")
