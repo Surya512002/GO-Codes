@@ -50,7 +50,7 @@ func main() {
 		}
 	} else {
 		if !validName {
-			fmt.Println("First name or last name you entered is too short")
+			fmt.Println("First name or last name you entered is too short,Please enter a valid name")
 		}
 		if !validEmail {
 			fmt.Println("Email address you entered doesn't contain @ sign,Please enter a valid email address")
