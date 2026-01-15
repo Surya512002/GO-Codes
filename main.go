@@ -53,7 +53,7 @@ func main() {
 			fmt.Println("First name or last name you entered is too short")
 		}
 		if !validEmail {
-			fmt.Println("Email address you entered doesn't contain @ sign")
+			fmt.Println("Email address you entered doesn't contain @ sign,Please enter a valid email address")
 		}
 		if !validTicketNumber {
 			fmt.Println("Number of tickets you entered is invalid. Please enter a valid number")
